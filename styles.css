@@ -1,0 +1,47 @@
+/* Universal selector: applies to all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Element selector: targets h2 and p */
+h2 {
+  color: navy;
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: 2px solid navy;
+  padding: 10px;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+/* Class selector */
+.color-text {
+  color: darkred;
+  background-color: #ffe5e5;
+  border: 1px solid darkred;
+  padding: 10px;
+}
+
+/* ID selector */
+#font-text {
+  font-size: 18px;
+  font-style: italic;
+  color: darkgreen;
+  background-color: #e5ffe5;
+  border: 1px solid darkgreen;
+  padding: 12px;
+}
+
+/* Another class to demonstrate box model */
+.box-demo {
+  background-color: #e5f0ff;
+  border: 2px solid blue;
+  padding: 20px;  /* inside spacing */
+  margin: 20px;   /* outside spacing */
+}
